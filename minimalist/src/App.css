@@ -279,7 +279,7 @@ left: 50%; */
     padding-top: 10px;
 }
 .categoriesLogo{
-    margin-top: 200px;
+    margin-top: 80px;
     display: flex;
     padding: 0px 60px;
     display: flex;
@@ -325,4 +325,12 @@ left: 50%; */
     padding: 0px 60px;
     margin-top: 70px;
     margin-bottom: 70px;
+}
+.product-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prod-name{
+    text-align: center;
 }

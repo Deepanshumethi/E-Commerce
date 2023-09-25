@@ -20,17 +20,16 @@ function Categories() {
         })
         const navigate = useNavigate();
 
-        function handleClick(event) {
-      
-          navigate('/home');
-        }
+        function handleClickHome(event){
+            navigate('/');
+          }
 
     return (
         <>
             <Nav />
             <div className='container-fluid'>
                 <div className='categoriesLogo'>
-                    <span className='homeLogo' onClick={handleClick}><i className="fa-solid fa-angle-left"></i>Home</span>
+                    <span className='homeLogo' onClick={handleClickHome}><i className="fa-solid fa-angle-left"></i>Home</span>
                 </div>
             </div>
 
@@ -62,8 +61,8 @@ function Categories() {
 
 
             </div>
-            <Link to="/Categories">Categories</Link>
-
+            {/* <Link to="/Categories">Categories</Link> */}
+            <Link to="/home"></Link>
 
 
         </>
